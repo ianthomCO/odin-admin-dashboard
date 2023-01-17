@@ -13,8 +13,26 @@ body{
 .sidebar{
     grid-row: 1/ span 2;
     background: red;
+    transform: translateX(0);
 }
 
 .content{
     background-color: green;
+}
+
+@media screen and (max-width:600px) {
+    .sidebar{
+        z-index:2;
+        width:200px;
+        height:100%;
+        position:fixed;
+        transform: translateX(-200px);
+        transition: all 0.4s ease-out;
+    }
+
+
+   body{
+    grid-template-columns:1fr;
+   }
+
 }
