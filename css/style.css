@@ -74,12 +74,12 @@ body{
 .avatar{
     border-radius: 50%;
     height:3rem;
-    border: 1px solid #909090;
+    border: 1px solid #FCA311;
     margin:2px;
 }
 
 .avatar:hover{
-    border: 1.5px solid #575757;
+    border: 1.5px solid #ef9505;
     margin:1.5px
 }
 
@@ -112,7 +112,7 @@ body{
 
 /* Content */
 .content{
-    background-color: green;
+    background-color: #E5E5E5;
 }
 
 /* Sidebar  */
