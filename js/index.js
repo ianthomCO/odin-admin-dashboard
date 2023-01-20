@@ -22,3 +22,14 @@ document.body.addEventListener("click",e=>{
     }
 })
 
+const darkmode = document.querySelector(".dark-mode");
+document.documentElement.setAttribute('data-theme', 'light');
+darkmode.addEventListener("click",e=>{
+    
+    if (document.documentElement.getAttribute('data-theme')==='light') {
+        document.documentElement.setAttribute('data-theme', 'dark');
+    }
+    else {
+        document.documentElement.setAttribute('data-theme', 'light');
+    } 
+})
